@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khadija Bibi | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#achievements">Certificates</a><a href="#links">Connect</a><a href="#contact">Contact</a></nav></header>
+<div class="dots" id="dots"></div>
+<div class="side" id="soc"></div>
+<main>
+<section id="hero"><canvas id="bg"></canvas><span class="cl c1">Artificial Intelligence</span><span class="cl c2">Machine Learning</span>
+<div class="hc"><span class="eyebrow">Hello, I’m</span><h1 id="nm"></h1>
+<div class="btns"><a class="ghost" href="#about">Let’s go</a><button class="ghost" id="cv">Download CV</button></div></div></section>
+
+<section id="about" class="reveal"><div class="wrap"><h2><i>01</i>About</h2><p id="bio" style="max-width:720px;margin:0"></p><div class="stats" id="stats"></div><p id="lang" style="color:var(--muted);font-size:13px;letter-spacing:2px;text-transform:uppercase;margin-top:28px"></p></div></section>
+
+<section id="skills" class="reveal"><div class="wrap"><h2><i>02</i>Skills</h2><div class="sk" id="sk"></div><div class="tools" id="tools"></div></div></section>
+
+<section id="experience" class="reveal"><div class="wrap"><h2><i>03</i>Experience &amp; Education</h2><div class="two"><div><h3 class="sub">Experience</h3><div id="ex"></div></div><div><h3 class="sub">Education</h3><div id="ed"></div></div></div></div></section>
+
+<section id="achievements" class="reveal"><div class="wrap"><h2><i>04</i>Certificates</h2><div class="grid" id="ac"></div></div></section>
+
+<section id="links" class="reveal"><div class="wrap"><h2><i>05</i>Connect</h2><div class="grid" id="lk"></div></div></section>
+
+<section id="contact" class="reveal"><div class="wrap"><h2><i>06</i>Contact</h2><div class="ci" id="ci"></div>
+<form id="cf"><input id="cn" placeholder="Your name" required><input id="ce" type="email" placeholder="Your email" required><textarea id="cm" rows="3" placeholder="Your message" required></textarea><div><button class="ghost" type="submit">Send message</button></div></form></div></section>
+</main>
+<footer>© <span id="yr"></span> <span id="ft"></span></footer>
+
+<button id="chatBtn" aria-label="Ask my AI assistant">✦</button>
+<div id="chat"><header>✦ Ask about Khadija</header><div id="msgs"></div><div class="chips" id="chips"></div><form id="chf"><input id="chi" placeholder="Ask a question…" autocomplete="off"><button class="ghost" type="submit" style="padding:8px 14px">Send</button></form></div>
+<div id="modal"><div class="mbox"><button id="mx" aria-label="Close">✕</button><h3 id="mt"></h3><div id="mb"></div></div></div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
